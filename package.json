@@ -47,7 +47,7 @@
     "test-node": "BLUEBIRD_DEBUG=1 ./bin/test-node.js",
     "test-browser": "npm run build-js && ./bin/test-browser.js",
     "dev-server": "npm run watch-js & ./bin/dev-server.js",
-    "test": "npm run test-browser", // XXX: to revert
+    "test": "npm run test-browser",
     "publish": "./bin/publish.sh",
     "publish-site": "./bin/publish-site.sh"
   },
